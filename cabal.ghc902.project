@@ -1,0 +1,32 @@
+packages: .
+
+source-repository-package
+    type: git
+    location: https://github.com/rrnewton/criterion-external
+    tag: 201083a35e82343ae638d62711fe83185b8101d4
+
+source-repository-package
+    type: git
+    location: https://github.com/ucsd-progsys/liquidhaskell
+    tag: f917323a1f9db1677e592d6ffc81467d53588d70
+
+source-repository-package
+    type: git
+    location: https://github.com/ucsd-progsys/liquidhaskell
+    tag: f917323a1f9db1677e592d6ffc81467d53588d70
+    subdir: liquid-containers liquid-prelude
+
+source-repository-package
+    type: git
+    location: https://github.com/ucsd-progsys/liquid-fixpoint
+    tag: e378d2ee8656da929e41c2d593a88a81e9620391
+
+source-repository-package
+    type: git
+    location: https://github.com/liquidhaskell/liquid-ghc-prim.git
+    tag: v0.7.0
+
+source-repository-package
+    type: git
+    location: https://github.com/facundominguez/liquid-base.git
+    tag: 8ad2378cee5ccf7937d9e08aacd5c5b7128318e8

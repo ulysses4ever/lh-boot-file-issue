@@ -1,0 +1,25 @@
+cabal-version:   3.0
+name:            lh910-boot-file-issue
+version:         0.1.0.0
+license:         NONE
+author:          Artem Pelenitsyn
+maintainer:      a.pelenitsyn@gmail.com
+build-type:      Simple
+extra-doc-files: CHANGELOG.md
+
+common warnings
+    ghc-options: -Wall
+
+library
+    import:           warnings
+    exposed-modules:  Array
+    other-modules:    Array.List
+    build-depends:
+      base,
+      liquid-prelude,
+      -- liquidhaskell-boot,
+      liquidhaskell,
+    hs-source-dirs:   src
+    default-language: Haskell2010
+
+    ghc-options: -fplugin=LiquidHaskell
