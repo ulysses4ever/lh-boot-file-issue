@@ -16,7 +16,7 @@ library
     other-modules:    Array.List
     build-depends:
       base,
-      liquid-prelude,
+      -- liquid-prelude,
       -- liquidhaskell-boot,
       liquidhaskell,
     hs-source-dirs:   src

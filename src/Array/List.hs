@@ -1,20 +1,6 @@
 {-@ LIQUID "--reflection"  @-}
--- {-@ LIQUID "--diff"        @-}
-{-@ LIQUID "--ple"         @-}
-{-@ LIQUID "--short-names" @-}
 
--- {-@ LIQUID "--verbose" @-}
-{-@ LIQUID "--higherorder" @-}
-
-{- @ LIQUID "--no-environment-reduction"      @-}
-{-@ LIQUID "--prune-unsorted" @-}
-
-{-@ infixr ++  @-}  -- TODO: Silly to have to rewrite this annotation!
-
-{-# LANGUAGE CPP           #-}
-{-# LANGUAGE GADTs         #-}
-{-# LANGUAGE DeriveGeneric #-}
-{-# LANGUAGE LinearTypes   #-}
+-- ^^ this looks critical
 
 module Array.List where
 

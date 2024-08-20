@@ -1,7 +1,3 @@
-module Array
-  (
-    -- * Array type
-  Array
-  ) where
+module Array where
 
 import           Array.List
